@@ -101,4 +101,5 @@ class CreateShadingNodes(object):
         cmds.connectAttr( placement+'.vertexCameraOne',  file1+'.vertexCameraOne')
         cmds.connectAttr( placement+'.outUV', file1+'.uv')
         cmds.connectAttr( placement+'.outUvFilterSize',  file1+'.uvFilterSize')
+        
         return file1
